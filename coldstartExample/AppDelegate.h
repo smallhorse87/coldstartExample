@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+extern NSString *kTmain;
+extern NSString *kTlaunchStart;
+extern NSString *kTlaunchEnd;
+extern NSString *kTprocessStart;
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;

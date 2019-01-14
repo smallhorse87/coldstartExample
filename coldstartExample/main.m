@@ -10,6 +10,10 @@
 #import "AppDelegate.h"
 
 int main(int argc, char * argv[]) {
+    
+    NSDate *dt = [[NSDate alloc] init];
+    kTmain = [NSString stringWithFormat:@"main start %lf", [dt timeIntervalSince1970]];
+
     @autoreleasepool {
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
